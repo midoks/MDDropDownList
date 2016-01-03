@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		822DE2B71C396A5600017E3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822DE2B61C396A5600017E3B /* AppDelegate.swift */; };
+		822DE2B91C396A5600017E3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822DE2B81C396A5600017E3B /* ViewController.swift */; };
+		822DE2BE1C396A5600017E3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 822DE2BD1C396A5600017E3B /* Assets.xcassets */; };
+		822DE2C11C396A5600017E3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 822DE2BF1C396A5600017E3B /* LaunchScreen.storyboard */; };
+		822DE2CC1C396A5600017E3B /* MDDropDownListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822DE2CB1C396A5600017E3B /* MDDropDownListTests.swift */; };
+		822DE2D71C396A5600017E3B /* MDDropDownListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822DE2D61C396A5600017E3B /* MDDropDownListUITests.swift */; };
+		822DE2ED1C396ABB00017E3B /* conversation_facetoface_qr.png in Resources */ = {isa = PBXBuildFile; fileRef = 822DE2E51C396ABB00017E3B /* conversation_facetoface_qr.png */; };
+		822DE2EE1C396ABB00017E3B /* conversation_options_addmember.png in Resources */ = {isa = PBXBuildFile; fileRef = 822DE2E61C396ABB00017E3B /* conversation_options_addmember.png */; };
+		822DE2EF1C396ABB00017E3B /* conversation_options_charge_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 822DE2E71C396ABB00017E3B /* conversation_options_charge_icon.png */; };
+		822DE2F01C396ABB00017E3B /* conversation_options_multichat.png in Resources */ = {isa = PBXBuildFile; fileRef = 822DE2E81C396ABB00017E3B /* conversation_options_multichat.png */; };
+		822DE2F11C396ABB00017E3B /* conversation_options_qr.png in Resources */ = {isa = PBXBuildFile; fileRef = 822DE2E91C396ABB00017E3B /* conversation_options_qr.png */; };
+		822DE2F21C396ABB00017E3B /* conversation_options_transferfiles.png in Resources */ = {isa = PBXBuildFile; fileRef = 822DE2EA1C396ABB00017E3B /* conversation_options_transferfiles.png */; };
+		822DE2F31C396ABB00017E3B /* MDDropDownList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822DE2EC1C396ABB00017E3B /* MDDropDownList.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		822DE2C81C396A5600017E3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 822DE2AB1C396A5600017E3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 822DE2B21C396A5600017E3B;
+			remoteInfo = MDDropDownList;
+		};
+		822DE2D31C396A5600017E3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 822DE2AB1C396A5600017E3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 822DE2B21C396A5600017E3B;
+			remoteInfo = MDDropDownList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		822DE2B31C396A5600017E3B /* MDDropDownList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDDropDownList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		822DE2B61C396A5600017E3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		822DE2B81C396A5600017E3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		822DE2BD1C396A5600017E3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		822DE2C01C396A5600017E3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		822DE2C21C396A5600017E3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		822DE2C71C396A5600017E3B /* MDDropDownListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDDropDownListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		822DE2CB1C396A5600017E3B /* MDDropDownListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDDropDownListTests.swift; sourceTree = "<group>"; };
+		822DE2CD1C396A5600017E3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		822DE2D21C396A5600017E3B /* MDDropDownListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDDropDownListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		822DE2D61C396A5600017E3B /* MDDropDownListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDDropDownListUITests.swift; sourceTree = "<group>"; };
+		822DE2D81C396A5600017E3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		822DE2E51C396ABB00017E3B /* conversation_facetoface_qr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = conversation_facetoface_qr.png; sourceTree = "<group>"; };
+		822DE2E61C396ABB00017E3B /* conversation_options_addmember.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = conversation_options_addmember.png; sourceTree = "<group>"; };
+		822DE2E71C396ABB00017E3B /* conversation_options_charge_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = conversation_options_charge_icon.png; sourceTree = "<group>"; };
+		822DE2E81C396ABB00017E3B /* conversation_options_multichat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = conversation_options_multichat.png; sourceTree = "<group>"; };
+		822DE2E91C396ABB00017E3B /* conversation_options_qr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = conversation_options_qr.png; sourceTree = "<group>"; };
+		822DE2EA1C396ABB00017E3B /* conversation_options_transferfiles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = conversation_options_transferfiles.png; sourceTree = "<group>"; };
+		822DE2EC1C396ABB00017E3B /* MDDropDownList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDDropDownList.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		822DE2B01C396A5600017E3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		822DE2C41C396A5600017E3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		822DE2CF1C396A5600017E3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		822DE2AA1C396A5600017E3B = {
+			isa = PBXGroup;
+			children = (
+				822DE2B51C396A5600017E3B /* MDDropDownList */,
+				822DE2CA1C396A5600017E3B /* MDDropDownListTests */,
+				822DE2D51C396A5600017E3B /* MDDropDownListUITests */,
+				822DE2B41C396A5600017E3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		822DE2B41C396A5600017E3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				822DE2B31C396A5600017E3B /* MDDropDownList.app */,
+				822DE2C71C396A5600017E3B /* MDDropDownListTests.xctest */,
+				822DE2D21C396A5600017E3B /* MDDropDownListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		822DE2B51C396A5600017E3B /* MDDropDownList */ = {
+			isa = PBXGroup;
+			children = (
+				822DE2E41C396ABB00017E3B /* Resources */,
+				822DE2EB1C396ABB00017E3B /* Source */,
+				822DE2B61C396A5600017E3B /* AppDelegate.swift */,
+				822DE2B81C396A5600017E3B /* ViewController.swift */,
+				822DE2BD1C396A5600017E3B /* Assets.xcassets */,
+				822DE2BF1C396A5600017E3B /* LaunchScreen.storyboard */,
+				822DE2C21C396A5600017E3B /* Info.plist */,
+			);
+			path = MDDropDownList;
+			sourceTree = "<group>";
+		};
+		822DE2CA1C396A5600017E3B /* MDDropDownListTests */ = {
+			isa = PBXGroup;
+			children = (
+				822DE2CB1C396A5600017E3B /* MDDropDownListTests.swift */,
+				822DE2CD1C396A5600017E3B /* Info.plist */,
+			);
+			path = MDDropDownListTests;
+			sourceTree = "<group>";
+		};
+		822DE2D51C396A5600017E3B /* MDDropDownListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				822DE2D61C396A5600017E3B /* MDDropDownListUITests.swift */,
+				822DE2D81C396A5600017E3B /* Info.plist */,
+			);
+			path = MDDropDownListUITests;
+			sourceTree = "<group>";
+		};
+		822DE2E41C396ABB00017E3B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				822DE2E51C396ABB00017E3B /* conversation_facetoface_qr.png */,
+				822DE2E61C396ABB00017E3B /* conversation_options_addmember.png */,
+				822DE2E71C396ABB00017E3B /* conversation_options_charge_icon.png */,
+				822DE2E81C396ABB00017E3B /* conversation_options_multichat.png */,
+				822DE2E91C396ABB00017E3B /* conversation_options_qr.png */,
+				822DE2EA1C396ABB00017E3B /* conversation_options_transferfiles.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		822DE2EB1C396ABB00017E3B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				822DE2EC1C396ABB00017E3B /* MDDropDownList.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		822DE2B21C396A5600017E3B /* MDDropDownList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 822DE2DB1C396A5600017E3B /* Build configuration list for PBXNativeTarget "MDDropDownList" */;
+			buildPhases = (
+				822DE2AF1C396A5600017E3B /* Sources */,
+				822DE2B01C396A5600017E3B /* Frameworks */,
+				822DE2B11C396A5600017E3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MDDropDownList;
+			productName = MDDropDownList;
+			productReference = 822DE2B31C396A5600017E3B /* MDDropDownList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		822DE2C61C396A5600017E3B /* MDDropDownListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 822DE2DE1C396A5600017E3B /* Build configuration list for PBXNativeTarget "MDDropDownListTests" */;
+			buildPhases = (
+				822DE2C31C396A5600017E3B /* Sources */,
+				822DE2C41C396A5600017E3B /* Frameworks */,
+				822DE2C51C396A5600017E3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				822DE2C91C396A5600017E3B /* PBXTargetDependency */,
+			);
+			name = MDDropDownListTests;
+			productName = MDDropDownListTests;
+			productReference = 822DE2C71C396A5600017E3B /* MDDropDownListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		822DE2D11C396A5600017E3B /* MDDropDownListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 822DE2E11C396A5600017E3B /* Build configuration list for PBXNativeTarget "MDDropDownListUITests" */;
+			buildPhases = (
+				822DE2CE1C396A5600017E3B /* Sources */,
+				822DE2CF1C396A5600017E3B /* Frameworks */,
+				822DE2D01C396A5600017E3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				822DE2D41C396A5600017E3B /* PBXTargetDependency */,
+			);
+			name = MDDropDownListUITests;
+			productName = MDDropDownListUITests;
+			productReference = 822DE2D21C396A5600017E3B /* MDDropDownListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		822DE2AB1C396A5600017E3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = midoks;
+				TargetAttributes = {
+					822DE2B21C396A5600017E3B = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					822DE2C61C396A5600017E3B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 822DE2B21C396A5600017E3B;
+					};
+					822DE2D11C396A5600017E3B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 822DE2B21C396A5600017E3B;
+					};
+				};
+			};
+			buildConfigurationList = 822DE2AE1C396A5600017E3B /* Build configuration list for PBXProject "MDDropDownList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 822DE2AA1C396A5600017E3B;
+			productRefGroup = 822DE2B41C396A5600017E3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				822DE2B21C396A5600017E3B /* MDDropDownList */,
+				822DE2C61C396A5600017E3B /* MDDropDownListTests */,
+				822DE2D11C396A5600017E3B /* MDDropDownListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		822DE2B11C396A5600017E3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				822DE2C11C396A5600017E3B /* LaunchScreen.storyboard in Resources */,
+				822DE2BE1C396A5600017E3B /* Assets.xcassets in Resources */,
+				822DE2ED1C396ABB00017E3B /* conversation_facetoface_qr.png in Resources */,
+				822DE2F01C396ABB00017E3B /* conversation_options_multichat.png in Resources */,
+				822DE2F11C396ABB00017E3B /* conversation_options_qr.png in Resources */,
+				822DE2EE1C396ABB00017E3B /* conversation_options_addmember.png in Resources */,
+				822DE2F21C396ABB00017E3B /* conversation_options_transferfiles.png in Resources */,
+				822DE2EF1C396ABB00017E3B /* conversation_options_charge_icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		822DE2C51C396A5600017E3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		822DE2D01C396A5600017E3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		822DE2AF1C396A5600017E3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				822DE2F31C396ABB00017E3B /* MDDropDownList.swift in Sources */,
+				822DE2B91C396A5600017E3B /* ViewController.swift in Sources */,
+				822DE2B71C396A5600017E3B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		822DE2C31C396A5600017E3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				822DE2CC1C396A5600017E3B /* MDDropDownListTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		822DE2CE1C396A5600017E3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				822DE2D71C396A5600017E3B /* MDDropDownListUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		822DE2C91C396A5600017E3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 822DE2B21C396A5600017E3B /* MDDropDownList */;
+			targetProxy = 822DE2C81C396A5600017E3B /* PBXContainerItemProxy */;
+		};
+		822DE2D41C396A5600017E3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 822DE2B21C396A5600017E3B /* MDDropDownList */;
+			targetProxy = 822DE2D31C396A5600017E3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		822DE2BF1C396A5600017E3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				822DE2C01C396A5600017E3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		822DE2D91C396A5600017E3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		822DE2DA1C396A5600017E3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		822DE2DC1C396A5600017E3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MDDropDownList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.midoks.MDDropDownList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		822DE2DD1C396A5600017E3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MDDropDownList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.midoks.MDDropDownList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		822DE2DF1C396A5600017E3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MDDropDownListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.midoks.MDDropDownListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MDDropDownList.app/MDDropDownList";
+			};
+			name = Debug;
+		};
+		822DE2E01C396A5600017E3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MDDropDownListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.midoks.MDDropDownListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MDDropDownList.app/MDDropDownList";
+			};
+			name = Release;
+		};
+		822DE2E21C396A5600017E3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MDDropDownListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.midoks.MDDropDownListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MDDropDownList;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		822DE2E31C396A5600017E3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MDDropDownListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.midoks.MDDropDownListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MDDropDownList;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		822DE2AE1C396A5600017E3B /* Build configuration list for PBXProject "MDDropDownList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				822DE2D91C396A5600017E3B /* Debug */,
+				822DE2DA1C396A5600017E3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		822DE2DB1C396A5600017E3B /* Build configuration list for PBXNativeTarget "MDDropDownList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				822DE2DC1C396A5600017E3B /* Debug */,
+				822DE2DD1C396A5600017E3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		822DE2DE1C396A5600017E3B /* Build configuration list for PBXNativeTarget "MDDropDownListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				822DE2DF1C396A5600017E3B /* Debug */,
+				822DE2E01C396A5600017E3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		822DE2E11C396A5600017E3B /* Build configuration list for PBXNativeTarget "MDDropDownListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				822DE2E21C396A5600017E3B /* Debug */,
+				822DE2E31C396A5600017E3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 822DE2AB1C396A5600017E3B /* Project object */;
+}
